@@ -1,0 +1,27 @@
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-family: Police, sans-serif;
+    font-size: 15px;
+}
+
+.boton {
+      background-color: white;
+      color: black;
+      border: 2px solid #1568c0;
+}
+.boton:hover {
+      background-color: #1568c0;
+      color: white;
+ }
+
+ .nav-link[data-toggle].collapsed:after {
+   content: "▾";
+ }
+ .nav-link[data-toggle]:not(.collapsed):after {
+   content: "▴";
+ }
+
+ a{
+   color: black;
+ }
