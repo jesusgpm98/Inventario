@@ -162,22 +162,3 @@
       </div>
     </div>
   @endsection
-
-
-  {{-- <div class="col-4 col-md-3">
-  <div class="card">
-  <div class="card-header">
-  <div class="card-title">
-  <h4>Bienvenid@ {{ auth()->user()->name }}</h4>
-</div>
-</div>
-<div class="card-body">
-<form action="{{ route('user.logout') }}" method="POST">
-{{ csrf_field() }}
-<div class="div-col-md-10 offset-md-2">
-<button type="submit" name="button" class="btn btn-danger">Cerrar Sesión</button>
-</div>
-</form>
-</div>
-</div>
-</div> --}}
